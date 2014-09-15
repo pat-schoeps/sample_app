@@ -1,59 +1,18 @@
 <% provide(:title, 'Experiment') %>
-<div class="jumbotron">
+<div class = "jumbotron">
 	<div class="container">
-		<h1>Experimental page for fucking around with bootstrap.</h1>
+		<div class="row">
+  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
 
-		<p>In this page I'll be exploring a little bit about bootstrap and how it works.  Bangarang, motherfucker.</p>
-		<a clas="btn btn-primary btn-lg" role="button">Clicky Click</a>
+  <!-- Add the extra clearfix for only the required viewport -->
+  <div class="clearfix visible-xs-block"></div>
 
-</div>
-
-<div class="site-wrapper">
-	<div class="site_wrapper_inner">
-		<div class="cover-container">
-			<div class="inner cover">
-				<h1 class="cover-heading">Sample Title.</h1>
-
-				<p class="lead">This cover is an experimental template.</p>
-				<p class="lead">
-					<a href= "#" class="btn btn-lg btn-default">Learn More</a>
-				</p>
-			</div>
-			<div class="mastfoot">
-				<div class="inner">
-					<p>"This is the mastfoot "
-						<a href="facebook.com">Facebook</a>
-						", by "
-						<a href="twitter.com"></a>
-						"."
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- Stack the columns on mobile by making one full-width and the other half-width -->
-<div class = "container">
-<div class="row">
-  <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
-  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-</div>
-
-<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-<div class="row">
-  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-</div>
-
-<!-- Columns are always 50% wide, on mobile and desktop -->
-<div class="row">
-  <div class="col-xs-6">.col-xs-6</div>
-  <div class="col-xs-6">.col-xs-6</div>
+  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
 </div>
 </div>
-
-
+</div>
 
 
 <%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
